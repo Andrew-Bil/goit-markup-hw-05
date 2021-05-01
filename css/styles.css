@@ -763,7 +763,8 @@ border-radius: 50%;
   .overlay .text-hover {
     padding: 63px 24px;
     font-family: var(--main-font);
-    font-size: 1.56;
+    font-size: 18px;
+    line-height: 1.56%px;
     letter-spacing: 0.03em;
 
     color: #FFFFFF;
