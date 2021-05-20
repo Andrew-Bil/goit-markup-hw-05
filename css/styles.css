@@ -19,6 +19,7 @@ h2,
 h3,
 h4,
 h5,
+h6,
 p, 
 ul   
 {
@@ -205,13 +206,13 @@ body {
 
 .modal {
     position: absolute;
+    width: 528px;
+    height: 581px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
-    width: 528px;
-    height: 581px;
     background-color: var(--title-cl);
+    padding: 40px;
 
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
@@ -491,6 +492,9 @@ border-radius: 50%;
     color: var(--title-cl);
 }
 
+.social-footer-class {
+    margin-right: 93px;
+}
 .social-footer {
     display: flex;
     align-items: center;
@@ -665,7 +669,6 @@ border-radius: 50%;
 }   
 
 .conteiner-footer {
-    width: auto;
     padding-top: 60px;
     padding-bottom: 60px;
 }
@@ -825,3 +828,42 @@ border-radius: 50%;
 
     background-color: rgba(47, 48, 58, 0.8);
   }
+
+
+
+  /**/
+
+.button-modal {
+    width: 200px;
+    height: 50px;
+    background: #188CE8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
+
+    font-family: var(--main-font);
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 187% */
+    letter-spacing: 0.06em;
+
+    color: #FFFFFF;   
+    cursor: pointer;
+}
+
+.button-modal-position {
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+
+.botton-close:hover .icon-modal-close,
+.botton-close:focus .icon-modal-close {
+    fill: var(--accent-cl);
+    cursor: pointer;
+    
+}
+
